@@ -1,0 +1,41 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# JavaScript / Vite build artifacts
+node_modules/
+dist/
+build/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# Local configuration and deployment state
+.env
+.env.*
+!.env.example
+.wrangler/
+.dev.vars
+
+# Local-only interview data, imported files, recordings, and backups
+# Keep shareable starter content in data/seed/ instead.
+data/private/
+data/imports/
+data/exports/
+uploads/
+recordings/
+*.webm
+*.wav
+*.mp3
+
+# Source transcripts contain personal contact details and interview notes.
+# Export a sanitized, reusable starter dataset before committing any content.
+/Ayesha Arshad — Virtual Assistant.md
+/one-time Ayesha Sales Development Representative Interview.md
+/Ayesha Arshad CV.md
+/temp_edit_target.toml
+/test_run.md
